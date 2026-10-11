@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "alphayou": {
+      "type": "http",
+      "url": "https://alphayou.net/api/mcp/market?utm_source=claude"
+    }
+  }
+}
