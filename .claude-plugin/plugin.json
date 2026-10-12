@@ -1,5 +1,6 @@
 {
   "name": "alphayou",
+  "displayName": "AlphaYou",
   "version": "0.3.3",
   "description": "Research six smart money feeds, SEC financials and earnings, US macro, CFTC positioning and Hyperliquid traders through AlphaYou.",
   "author": {
@@ -10,6 +11,10 @@
   "homepage": "https://alphayou.net/connectors",
   "repository": "https://github.com/vanshb95/alphayou-claude-plugin",
   "license": "MIT",
+  "supportUrl": "https://alphayou.net/connectors#support",
+  "documentationUrl": "https://alphayou.net/connectors",
+  "privacyPolicyUrl": "https://alphayou.net/legal/privacy",
+  "termsOfServiceUrl": "https://alphayou.net/legal/terms",
   "keywords": [
     "stock research",
     "smart money",
