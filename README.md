@@ -9,9 +9,17 @@ Ask Claude about a stock or a Hyperliquid trader and get the filing, the date an
 - US macro data and weekly CFTC futures positioning for context.
 - Hyperliquid research: rank and compare public wallets by their historical record, and inspect positions, observed activity and market context.
 
+Try: "Who is buying NVDA, and what did insiders do this quarter?", "Rank the top Hyperliquid traders by Sharpe and show what the best three hold", "What did Nvidia file with the SEC in the last 90 days?"
+
 ## What this plugin connects to
 
-It adds one remote MCP server, `https://alphayou.net/api/mcp/market?utm_source=claude`, with 21 read-only tools. No sign-in, account, API key or credentials are needed. The `utm_source=claude` part only tells AlphaYou that the request came from Claude. It is not authentication.
+It adds one remote MCP server, `https://alphayou.net/api/mcp/market?utm_source=claude`, with 19 read-only tools (version 0.4.0). No sign-in, account, API key or credentials are needed. The `utm_source=claude` part only tells AlphaYou that the request came from Claude. It is not authentication.
+
+## Skills and commands
+
+Four skills tell Claude when to use the tools and how to present the answer: `smart-money-check`, `hyperliquid-wallet-research`, `company-filings-brief` and `market-brief`. Four commands start them directly: `/alphayou:smart-money`, `/alphayou:wallet`, `/alphayou:compare-wallets` and `/alphayou:brief`.
+
+Skills and commands are plain Markdown instructions. The plugin runs no scripts, hooks or local servers, and its only network destination is the AlphaYou server above.
 
 ## What is sent
 
