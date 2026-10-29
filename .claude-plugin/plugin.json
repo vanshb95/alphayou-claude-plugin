@@ -2,7 +2,7 @@
   "name": "alphayou",
   "displayName": "AlphaYou",
   "version": "0.4.1",
-  "description": "Research six smart money feeds, SEC financials and earnings, US macro, CFTC positioning and Hyperliquid traders through AlphaYou.",
+  "description": "Insider trades (Form 4), Congress, 13F funds, government contracts, financial creators and Hyperliquid top traders, with SEC financials, macro and CFTC data.",
   "icon": "./icon.png",
   "author": {
     "name": "AlphaYou, Inc.",
