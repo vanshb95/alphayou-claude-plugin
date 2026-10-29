@@ -13,7 +13,7 @@ Try: "Who is buying NVDA, and what did insiders do this quarter?", "Rank the top
 
 ## What this plugin connects to
 
-It adds one remote MCP server, `https://alphayou.net/api/mcp/market?utm_source=claude`, with 19 read-only tools (version 0.4.0). No sign-in, account, API key or credentials are needed. The `utm_source=claude` part only tells AlphaYou that the request came from Claude. It is not authentication.
+It adds one remote MCP server, `https://alphayou.net/api/mcp/market?utm_source=claude`, with 19 read-only tools (version 0.4.1). No sign-in, account, API key or credentials are needed. The `utm_source=claude` part only tells AlphaYou that the request came from Claude. It is not authentication.
 
 ## Skills and commands
 
