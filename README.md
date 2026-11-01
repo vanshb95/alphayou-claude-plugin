@@ -2,6 +2,23 @@
 
 Ask Claude about a stock or a Hyperliquid trader and get the filing, the date and the source link instead of a guess.
 
+## Install
+
+In Claude Code (2.1.275 or later), one command:
+
+```
+/plugin install alphayou --marketplace vanshb95/alphayou-claude-plugin
+```
+
+Or from your shell:
+
+```
+claude plugin marketplace add vanshb95/alphayou-claude-plugin
+claude plugin install alphayou@alphayou
+```
+
+In Claude on the web or desktop, without the plugin: add `https://alphayou.net/api/mcp/market?utm_source=claude` as a custom connector in Claude's connector settings. No sign-in is needed.
+
 ## What you can ask
 
 - Smart money in a stock: funds (13F), Congress, insiders (Form 4), government contracts, influencers and tracked top traders, each with its own date and source link.
