@@ -1,0 +1,16 @@
+{
+  "name": "alphayou",
+  "description": "Source-linked research on insider filings, 13F fund holdings, SEC financials and Hyperliquid traders for Claude.",
+  "owner": {
+    "name": "AlphaYou, Inc.",
+    "email": "info@alphayou.net"
+  },
+  "plugins": [
+    {
+      "name": "alphayou",
+      "source": "./",
+      "description": "Source-linked research on insider filings (Form 4), 13F fund holdings, SEC financials and Hyperliquid traders. Read-only, no sign-in.",
+      "category": "finance"
+    }
+  ]
+}
