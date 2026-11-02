@@ -21,6 +21,8 @@ In Claude on the web or desktop, without the plugin: add `https://alphayou.net/a
 
 ## What you can ask
 
+- A full stock overview: who is buying or selling, the latest earnings and guidance, recent SEC filings and the next earnings date, in one answer.
+- Hedge fund 13F changes and AlphaYou's public fund scoreboard, with the window and benchmark.
 - Smart money in a stock: funds (13F), Congress, insiders (Form 4), government contracts, influencers and tracked top traders, each with its own date and source link.
 - Company facts from SEC filings: financials, reported earnings and management guidance, announced earnings dates and financial quality ratios.
 - US macro data and weekly CFTC futures positioning for context.
@@ -30,11 +32,11 @@ Try: "Who is buying NVDA, and what did insiders do this quarter?", "Rank the top
 
 ## What this plugin connects to
 
-It adds one remote MCP server, `https://alphayou.net/api/mcp/market?utm_source=claude`, with 19 read-only tools (version 0.4.1). No sign-in, account, API key or credentials are needed. The `utm_source=claude` part only tells AlphaYou that the request came from Claude. It is not authentication.
+It adds one remote MCP server, `https://alphayou.net/api/mcp/market?utm_source=claude`, with 20 read-only tools (version 0.4.2). No sign-in, account, API key or credentials are needed. The `utm_source=claude` part only tells AlphaYou that the request came from Claude. It is not authentication.
 
 ## Skills and commands
 
-Four skills tell Claude when to use the tools and how to present the answer: `smart-money-check`, `hyperliquid-wallet-research`, `company-filings-brief` and `market-brief`. Four commands start them directly: `/alphayou:smart-money`, `/alphayou:wallet`, `/alphayou:compare-wallets` and `/alphayou:brief`.
+Six skills tell Claude when to use the tools and how to present the answer: `stock-research`, `smart-money-check`, `fund-tracker`, `hyperliquid-wallet-research`, `company-filings-brief` and `market-brief`. Six commands start them directly: `/alphayou:research`, `/alphayou:smart-money`, `/alphayou:fund`, `/alphayou:wallet`, `/alphayou:compare-wallets` and `/alphayou:brief`.
 
 Skills and commands are plain Markdown instructions. The plugin runs no scripts, hooks or local servers, and its only network destination is the AlphaYou server above.
 
