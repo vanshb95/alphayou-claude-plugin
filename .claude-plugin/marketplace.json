@@ -1,6 +1,6 @@
 {
   "name": "alphayou",
-  "description": "Source-linked research on insider filings, 13F fund holdings, SEC financials and Hyperliquid traders for Claude.",
+  "description": "Smart money research: insider trading and insider buying (Form 4), 13F holdings of hedge funds and Hyperliquid wallets, with original sources and dates.",
   "owner": {
     "name": "AlphaYou, Inc.",
     "email": "info@alphayou.net"
@@ -9,7 +9,7 @@
     {
       "name": "alphayou",
       "source": "./",
-      "description": "Follow the smart money, with receipts: top Hyperliquid traders, Congress, insiders, hedge funds and X finfluencers, each trade linked to its source and date. Read-only, no sign-in.",
+      "description": "Smart money research: insider trading and insider buying (Form 4), 13F holdings of hedge funds and Hyperliquid wallets. Read-only, no sign-in.",
       "category": "finance"
     }
   ]

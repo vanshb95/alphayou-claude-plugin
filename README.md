@@ -1,6 +1,6 @@
 # AlphaYou for Claude
 
-Ask Claude about a stock or a Hyperliquid trader and get the filing, the date and the source link instead of a guess.
+Ask Claude about smart money: insider trading, insider buying, 13F holdings of hedge funds, or Hyperliquid wallets. Answers retain original sources, dates and coverage limits.
 
 ## Install
 
@@ -28,11 +28,11 @@ In Claude on the web or desktop, without the plugin: add `https://alphayou.net/a
 - US macro data and weekly CFTC futures positioning for context.
 - Hyperliquid research: rank and compare public wallets by their historical record, and inspect positions, observed activity and market context.
 
-Try: "Who is buying NVDA, and what did insiders do this quarter?", "Rank the top Hyperliquid traders by Sharpe and show what the best three hold", "What did Nvidia file with the SEC in the last 90 days?"
+Try: "Show insider buying and selling in AAPL, with Form 4 filing links and dates", "Which hedge funds changed their NVDA holdings in the latest 13F filings?", "Rank Hyperliquid traders by Sharpe and show what the best three hold".
 
 ## What this plugin connects to
 
-It adds one remote MCP server, `https://alphayou.net/api/mcp/market?utm_source=claude`, with 20 read-only tools (version 0.4.2). No sign-in, account, API key or credentials are needed. The `utm_source=claude` part only tells AlphaYou that the request came from Claude. It is not authentication.
+It adds one remote MCP server, `https://alphayou.net/api/mcp/market?utm_source=claude`, with 20 read-only tools. No sign-in, account, API key or credentials are needed. The `utm_source=claude` part only tells AlphaYou that the request came from Claude. It is not authentication.
 
 ## Skills and commands
 
