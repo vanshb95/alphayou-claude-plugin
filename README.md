@@ -4,6 +4,14 @@ Ask Claude about smart money: insider trading, insider buying, 13F holdings of h
 
 ## Install
 
+**Claude web or desktop**
+
+1. Open Customize → Plugins → Discover, search AlphaYou and choose Add.
+2. Open AlphaYou's Connectors tab. If `alphayou` says Not added, choose Connect → Continue, keep No sign-in selected, then Add.
+3. Choose Connect again. Confirm Connected before starting a new chat. Installing the plugin alone does not connect its tools.
+
+**Claude Code**
+
 In Claude Code (2.1.275 or later), one command:
 
 ```
