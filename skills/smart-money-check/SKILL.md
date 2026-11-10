@@ -1,6 +1,6 @@
 ---
 name: smart-money-check
-description: Use when the user asks what funds, insiders, Congress members, government-contract awards, influencers or top Hyperliquid traders are buying, selling, holding or saying about a US stock, or whether those groups agree. Examples are "who is buying NVDA", "insider buying this week", "what did Pelosi buy", "which funds hold TSLA" and "is smart money agreeing on AAPL". Reads dated, source-linked rows through the AlphaYou connector. Research only: no advice, sizing or buy and sell verdicts.
+description: Use when the user asks what funds, insiders, Congress members, government-contract awards, influencers or top Hyperliquid traders are buying, selling, holding or saying about a US stock, or whether those groups agree. Examples are "who is buying NVDA", "insider buying this week", "what did Pelosi buy", "what are senators trading", "Congress stock trades this week", "which funds hold TSLA" and "is smart money agreeing on AAPL". Reads dated, source-linked rows through the AlphaYou connector. Research only: no advice, sizing or buy and sell verdicts.
 ---
 
 # Smart money check

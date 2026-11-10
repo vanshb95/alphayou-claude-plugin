@@ -1,8 +1,8 @@
 {
   "name": "alphayou",
   "displayName": "AlphaYou",
-  "version": "0.4.1",
-  "description": "Insider trades (Form 4), Congress, 13F funds, government contracts, financial creators and Hyperliquid top traders, with SEC financials, macro and CFTC data.",
+  "version": "0.4.2",
+  "description": "Smart money research: insider trading and insider buying (Form 4), 13F holdings of hedge funds and Hyperliquid wallets, with original sources and dates.",
   "icon": "./icon.png",
   "author": {
     "name": "AlphaYou, Inc.",
@@ -21,10 +21,12 @@
     "smart money",
     "Congress trades",
     "politician trades",
+    "insider trading",
     "insider buying",
     "insider trades",
     "Form 4",
     "13F",
+    "hedge funds",
     "hedge fund holdings",
     "SEC filings",
     "government contracts",
@@ -35,6 +37,11 @@
     "Hyperliquid",
     "wallet research",
     "trader comparison",
-    "market intelligence"
+    "market intelligence",
+    "due diligence",
+    "stock deep dive",
+    "senator stock trades",
+    "hedge fund tracker",
+    "fund scoreboard"
   ]
 }
